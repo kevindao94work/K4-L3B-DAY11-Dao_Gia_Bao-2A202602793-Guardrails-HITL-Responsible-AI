@@ -134,10 +134,13 @@ async def part4_attacks():
 
 
 async def main(parts=None):
-    setup_api_key()
-
     if parts is None:
         parts = [2, 3, 4]  # Core: CP2 → CP3 → CP4
+
+    # Checkpoints 2–3 validate deterministic filters and need no provider key.
+    # Only Checkpoint 4 makes Red / Red Advance model calls.
+    if 4 in parts:
+        setup_api_key()
 
     for part in parts:
         if part == 2:
