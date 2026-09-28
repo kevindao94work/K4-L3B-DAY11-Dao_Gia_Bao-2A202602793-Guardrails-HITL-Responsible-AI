@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T03:25:55.166533+00:00",
+  "generated_at": "2026-09-28T03:29:44.737233+00:00",
   "submission_dir": "/Users/tridao/Documents/Personal/VINAITC/Week_3/K4-L3B-DAY11-Dao_Gia_Bao-2A202602793-Guardrails-HITL-Responsible-AI",
   "technical_failure": false,
   "packaging": {
@@ -47,7 +47,7 @@
   },
   "public_tests": {
     "returncode": 0,
-    "stdout": "..........                                                               [100%]\n10 passed in 0.36s\n",
+    "stdout": "..........                                                               [100%]\n10 passed in 0.35s\n",
     "stderr": "",
     "technical_failure": false
   },
